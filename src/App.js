@@ -30,7 +30,7 @@ const customers=[{
 class App extends Component{
   render(){
     return(
-      <div>
+      <div>  
         {
           customers.map(c=> {
             return (
